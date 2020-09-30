@@ -11,10 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a6a5b5f-d79f-4b73-b74f-32e5817fbcb2" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/app-data/labs/lab1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-data/labs/lab1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-grounds/net/custom-back-ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-grounds/net/custom-back-ground.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -99,7 +95,7 @@
       <updated>1601220853624</updated>
       <workItem from="1601220854743" duration="13486000" />
       <workItem from="1601481975227" duration="21822000" />
-      <workItem from="1601507546683" duration="312000" />
+      <workItem from="1601507546683" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1601221382103</created>
@@ -129,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601500533222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alpha">
+      <created>1601507952595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601507952595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdf" />
+    <MESSAGE value="alpha" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1601500538074">
