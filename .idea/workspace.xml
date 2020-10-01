@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a6a5b5f-d79f-4b73-b74f-32e5817fbcb2" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-data/labs/lab1.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +73,6 @@
       <recent name="$PROJECT_DIR$/vanta-scripts/net" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +83,9 @@
       <updated>1601220853624</updated>
       <workItem from="1601220854743" duration="13486000" />
       <workItem from="1601481975227" duration="21822000" />
-      <workItem from="1601507546683" duration="717000" />
+      <workItem from="1601507546683" duration="942000" />
+      <workItem from="1601533778014" duration="5000" />
+      <workItem from="1601553920587" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1601221382103</created>
@@ -132,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601507952595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="alpha v2">
+      <created>1601508464532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601508464532</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,12 +151,13 @@
     <MESSAGE value="commit" />
     <MESSAGE value="pdf" />
     <MESSAGE value="alpha" />
-    <option name="LAST_COMMIT_MESSAGE" value="alpha" />
+    <MESSAGE value="alpha v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha v2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1601500538074">
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1601508477637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601500538074" />
+    <state x="555" y="255" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601508477637" />
   </component>
 </project>
