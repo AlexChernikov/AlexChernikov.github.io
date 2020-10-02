@@ -78,61 +78,9 @@ header #logo span {
 
 #about {
     text-align: center;
-    list-style: none;
     font-size: 1em;
     line-height: 40px;
     margin-bottom: 10px;
-}
-
-ul.header-ul {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-}
-
-li.header-li {
-    list-style: none;
-    padding: 20px;
-}
-
-li.header-li a{
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    position: relative;
-    padding: 10px;
-}
-li.header-li a::before {
-    content: '';
-    width: 0px;
-    height: 4px;
-    background-color: black;
-    position: absolute;
-    top: 100%;
-    transition: .7s;
-    left: 0;
-}
-li.header-li a::after {
-    content: '';
-    width: 0px;
-    height: 4px;
-    background-color: black;
-    position: absolute;
-    top: 100%;
-    transition: .7s;
-    right: 0;
-}
-li.header-li:hover {
-    background-color: whitesmoke;
-}
-
-li.header-li:hover a::before {
-    width: 49%;
-    transform: translateX(100%);
-}
-li.header-li:hover a::after {
-    width: 49%;
-    transform: translateX(-100%);
 }
 
 #about > a {
@@ -141,6 +89,8 @@ li.header-li:hover a::after {
     color: white;
     padding: 7px;
 }
+
+#about a:hover {color: silver}
 
 #about > a:not(:last-child) {
     margin-right: 7%;
@@ -151,7 +101,7 @@ li.header-li:hover a::after {
 .fixed {
     z-index: 5000;
     background-color: white;
-    border-bottom: 1px solid silver;
+    border-bottom: 3px solid silver;
 }
 
 header.fixed #logo {
@@ -210,7 +160,7 @@ header.fixed #logo {
 #team {
     float: left;
     background-color: white;
-    border-top: 2px solid silver;
+    border-top: 4px solid silver;
     color: #111111;
     font-size: 1.3em;
 }
@@ -242,13 +192,23 @@ header.fixed #logo {
     float: left;
 }
 
-#team h2 {font-size: 3em}
-#team span {color: #a0a0a0}
+#team p {
+    font-family: Arimo, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #bbbbbb;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+#team h2 {font-size: 4em}
+#team span {
+    font-size: 1.5em;
+    color: #a0a0a0}
 
 /* Блок с преимуществами */
 
 #project {
-    border-top: 2px dashed #e4e3e3;
+    border-top: 4px solid silver;
     width: 100%;
     float: left;
     padding-top: 70px;
@@ -257,10 +217,13 @@ header.fixed #logo {
     color: white;
 }
 
-#project h2 {
-    font-size: 4em
+#project h2 {font-size: 4em}
+#project h4 {font-size: 2.5em}
+#project p {
+    font-size: 1.5em;
+    padding-left: 20%;
+    width: 60%;
 }
-#project h4 {font-size: 1.5em}
 
 @media (min-width: 561px) {
     #project h2 {font-size: 4em}
@@ -272,24 +235,34 @@ header.fixed #logo {
 
 /* Блок с контактами */
 #student {
+    border-top: 4px solid silver;
     width: 100%;
     float: left;
-    padding-bottom: 40px;
     padding-top: 70px;
-    border-top: 4px solid #ccc;
+    padding-bottom: 70px;
+    text-align: center;
     background: white;
+}
+
+#student h2 {font-size: 4em}
+#student h4 {font-size: 2.5em}
+#student p {
+    font-size: 1.5em;
+    padding-left: 20%;
+    width: 60%;
+}
+
+@media (min-width: 561px) {
+    #project h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+    #project h2 {font-size: 2em}
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Roboto Slab', serif;
     font-weight: lighter;
-}
-
-#student h5 {font-size: 3em; color: #111111}
-
-#form_input {
-    margin-top: 15px;
-    font-size: 1.1em;
 }
 
 @media (min-width: 1051px) {
@@ -311,7 +284,7 @@ h1, h2, h3, h4, h5 {
     width: 70%;
     padding: 10px 2%;
     border-radius: 7px;
-    border: 2px solid silver;
+    border: 4px solid silver;
     font-size: 0.9em;
     color: #111111;
 }
@@ -324,7 +297,7 @@ h1, h2, h3, h4, h5 {
 
 #labs {
     background-size: cover;
-    border-top: 2px dashed #e4e3e3;
+    border-top: 4px solid silver;
     width: 100%;
     float: left;
     padding-top: 70px;
@@ -333,8 +306,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #labs h2 {font-size: 4em}
-#labs h4 {font-size: 1.5em}
-#labs a {font-size: 1.5em}
+#labs h4 {font-size: 2.2em}
+#labs a {font-size: 1.5em; color: skyblue}
 #labs div {padding-top: 50px}
 
 @media (min-width: 801px) {
