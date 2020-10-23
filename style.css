@@ -224,6 +224,7 @@ header.fixed #logo {
     padding-left: 20%;
     width: 60%;
 }
+#project a {font-size: 2.5em; color: skyblue}
 
 @media (min-width: 561px) {
     #project h2 {font-size: 4em}
